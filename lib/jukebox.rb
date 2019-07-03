@@ -61,9 +61,8 @@ elsif songs.include?(input)
    
 end
 end
-def exit(exit_jukebox)
+def exit()
   input=gets.chomp
-exit
 puts "goodbye"
 
 end
