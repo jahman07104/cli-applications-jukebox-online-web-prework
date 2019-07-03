@@ -63,6 +63,7 @@ end
 end
 def exit_jukebox
   input = gets.chomp
+  
 puts "goodbye"
 
 end
