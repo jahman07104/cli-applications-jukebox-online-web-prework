@@ -52,7 +52,7 @@ def play(songs)
      input=gets.chomp
      
   if input.to_i >=1 && input.to_i <= songs.length
-input.to_i -1    
+    
     puts "Playing #{songs[]}"
     
 
