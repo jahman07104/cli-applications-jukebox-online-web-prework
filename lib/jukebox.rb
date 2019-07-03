@@ -62,6 +62,6 @@ elsif songs.include?(input)
 end
 end
 def exit_jukebox
- puts "goodbye"
+ puts "Goodbye"
 
 end
