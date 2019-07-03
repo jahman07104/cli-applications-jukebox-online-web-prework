@@ -41,8 +41,8 @@ end
 
 def list(songs)
    songs.each_with_index do |song, index| 
-puts "The index is #{index}"
-  puts "The value is #{song}"
+puts "1. #{song}"
+#{index}
 end
 end
 def play(songs)
