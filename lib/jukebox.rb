@@ -50,7 +50,7 @@ def play(songs)
   puts"Please enter a song name or number:"
 
      input=gets.chomp
-     
+     songs.find{|name|name.length > 4} 
   if input.to_i >=1 && input.to_i <= songs.length
     
     puts "Playing #{songs[input.to_i - 1]}"
