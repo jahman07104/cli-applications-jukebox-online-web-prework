@@ -49,7 +49,7 @@ def play(songs)
      puts"Please enter a song name or number:"
      input=gets.chomp
      
-  if input >=1 && input <= songs.length
+  if input.to_1 >=1 && input.to_1 <= songs.length
     puts "Playing <song name>"
 
 end
