@@ -53,7 +53,7 @@ def play(songs)
      
   if input.to_i >=1 && input.to_i <= songs.length
     
-    puts "Playing #{songs[]}"
+    puts "Playing #{songs[input.to_i -1]}"
     
 
 end
