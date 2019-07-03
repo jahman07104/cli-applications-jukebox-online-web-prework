@@ -54,8 +54,8 @@ def play(songs)
   if input.to_i >=1 && input.to_i <= songs.length
     
     puts "Playing #{songs[input.to_i -1]}"
-    
-
+   elsif songs.include? input
+   puts
 end
 end
 def exit
