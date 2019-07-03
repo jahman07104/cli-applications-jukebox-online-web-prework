@@ -46,8 +46,7 @@ puts "The index is #{index}"
 end
 end
 def play(songs)
-     input=gets.chomp
-     songs[0]
+  
   puts"Please enter a song name or number:"
      input=gets.chomp
      
