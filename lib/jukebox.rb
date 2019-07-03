@@ -56,6 +56,7 @@ def play(songs)
     puts "Playing #{songs[input.to_i - 1]}"
    elsif songs.include? input
    puts
+   
 end
 end
 def exit
