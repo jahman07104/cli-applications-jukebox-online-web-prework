@@ -62,8 +62,6 @@ elsif songs.include?(input)
 end
 end
 def exit_jukebox
-  input = gets.chomp
-  
-puts "goodbye"
+ puts "goodbye"
 
 end
